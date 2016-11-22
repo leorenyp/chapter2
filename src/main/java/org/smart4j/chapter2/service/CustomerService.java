@@ -11,10 +11,10 @@ import java.util.Map;
 public class CustomerService {
     /**
      * 获取客户列表
-     * @param keyword
+     * @param
      * @return
      */
-    public List<Customer> getCustomerList(String keyword){
+    public List<Customer> getCustomerList(){
         //// TODO: 2016/11/21
         return null;
     }
@@ -44,7 +44,7 @@ public class CustomerService {
      * @param fieldMap
      * @return
      */
-    public boolean updateCustomer(Map<String,Object> fieldMap){
+    public boolean updateCustomer(long id,Map<String,Object> fieldMap){
        //// TODO: 2016/11/21
         return false ;
     }
