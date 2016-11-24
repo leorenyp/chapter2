@@ -18,8 +18,8 @@ import java.util.Map;
 public class CustomerServiceTest {
     private final CustomerService customerService ;
 
-    public CustomerServiceTest(CustomerService customerService) {
-        this.customerService = customerService;
+    public CustomerServiceTest() {
+        this.customerService = new CustomerService();
     }
     @Before
     public void init(){
